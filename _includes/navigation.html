@@ -1,4 +1,8 @@
 <nav>
-  <a href="/jekyllTestScratch">Home</a>
-  <a href="/jekyllTestScratch/about">About</a>
+  <a href="/jekyllTestScratch" {% if page.url == "/jekyllTestScratch" %}style="color: red;"{% endif %}>
+    Home
+  </a>
+  <a href="/jekyllTestScratch/about" {% if page.url == "/jekyllTestScratch/about" %}style="color: red;"{% endif %}>
+    About
+  </a>
 </nav>
