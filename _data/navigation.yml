@@ -1,6 +1,6 @@
 - name: Home
   link: /E-PortfolioInJekyll
 - name: About
-  link: /E-PortfolioInJekyll/about.html
+  link: /E-PortfolioInJekyll/about
 - name: Blog
   link: /E-PortfolioInJekyll/blog.html
