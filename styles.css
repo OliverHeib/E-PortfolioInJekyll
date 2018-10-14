@@ -120,6 +120,11 @@ aside img {
 	float: none;
 }
 
+#post img{
+	border-radius: 0%;
+	border: 2px solid black;
+}
+
 /*Page structure*/
 #container {
 	width:100%;
