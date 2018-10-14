@@ -9,7 +9,7 @@ title: Blog
     {% for post in site.posts %}
       <li>
         <h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt }}</p>
+        <p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a</p>
       </li>
     {% endfor %}
   </ul>
