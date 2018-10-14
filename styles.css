@@ -127,7 +127,8 @@ aside img {
 }
 
 #post {
-	border: 1px solid black;	
+	border: 1px solid black;
+	margin-top: 10px;
 }
 
 body{
