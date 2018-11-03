@@ -26,7 +26,7 @@ title: Home
 					</ul>
 					
 					<ul>
-						{% for post in site.posts limit: 2 offset: 1 %}
+						{% for post in site.posts offset: 1 limit: 1 %}
 							<li style="list-style-type: none;">
 								<div id="post" style="width: 410px; float: left; margin: 5px">
 									<h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2><p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a></p>
