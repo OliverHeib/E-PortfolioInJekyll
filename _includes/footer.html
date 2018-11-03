@@ -10,4 +10,9 @@
 				<p>By Oliver Heib</p>
 				<a href="https://twitter.com/oliver_heib" title="Twitter">MMU      </a>
 				<a href="https://github.com/OliverHeib/"  title="GitHub</a>
+				<ul>
+  					{% for item in site.data.navigation %}
+    						<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}><li>{{ item.name }}</li></a>
+  					{% endfor %}
+				</ul>
 </footer>
