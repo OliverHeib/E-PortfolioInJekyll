@@ -173,7 +173,7 @@ aside {
 }
 
 footer{
-	position: relative;
+	position: fixed;
 	text-align: center;
 	width: 100%;
 	margin: 0;
