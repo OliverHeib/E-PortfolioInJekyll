@@ -10,7 +10,7 @@
 				<p>By Oliver Heib</p>
 				<ul>
   					{% for item in site.data.links %}
-    						<a href="{{ item.link }}"><li>{{ item.name }}</li style="list-style-type: none;"></a>
+    						<a href="{{ item.link }}"><li style="list-style-type: none;">{{ item.name }}</li"></a>
   					{% endfor %}
 				</ul>
 </footer>
