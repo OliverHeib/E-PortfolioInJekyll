@@ -176,13 +176,12 @@ footer{
 	position: fixed;
 	text-align: center;
 	width: 100%;
-	margin: 0;
+	margin-top: -3em;
 	margin-top: 10px; 
 	float: left;
 	background-color: #0e0187;
 	width: 100%;
 	padding: 10px;
-	margin:0;
 	height: auto%;
 	box-sizing: border-box;
 	left: 0;
