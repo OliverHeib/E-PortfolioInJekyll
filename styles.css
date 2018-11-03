@@ -185,6 +185,8 @@ footer{
 	margin:0;
 	height: auto%;
 	box-sizing: border-box;
+	left: 0;
+	bottom: 0;
 }	
 
 /*lists and tables styles*/
