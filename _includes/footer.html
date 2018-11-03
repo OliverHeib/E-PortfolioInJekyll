@@ -12,7 +12,7 @@
 				<a href="https://github.com/OliverHeib/"  title="GitHub</a>
 				<ul>
   					{% for item in site.data.links %}
-    						<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}><li>{{ item.name }}</li></a>
+    						<a href="{{ item.link }}"><li>{{ item.name }}</li></a>
   					{% endfor %}
 				</ul>
 </footer>
