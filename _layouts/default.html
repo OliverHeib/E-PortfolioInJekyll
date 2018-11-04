@@ -7,7 +7,19 @@
   </head>
   <body>
     <header>
-			<h1>{{ site.title }}</h1>
+			<h1>{{ site.title }}</h1> 
+	<script>
+  		(function() {
+    			var cx = '005848571934092280375:4azmdas4-1c';
+    			var gcse = document.createElement('script');
+   			gcse.type = 'text/javascript';
+    			gcse.async = true;
+    			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    			var s = document.getElementsByTagName('script')[0];
+    			s.parentNode.insertBefore(gcse, s);
+  		})();
+	</script>
+	<gcse:search style:"float right;"></gcse:search>
     </header>
     {% include navigation.html %}
     <section>
