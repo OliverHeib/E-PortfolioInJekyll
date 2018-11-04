@@ -81,7 +81,8 @@ nav li{
 }
 
 nav li:hover {
-	background-color: #2a62fc
+	background-color: #2a62fc;
+	border: 1px solid #e5cf7e;
 }
 
 nav a {
