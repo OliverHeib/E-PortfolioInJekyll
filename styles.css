@@ -160,6 +160,7 @@ section{
 	float: left;
 	margin: 0px;
 	background-color: #5600c6;
+	box-sizing: border-box;
 }
 
 article {
