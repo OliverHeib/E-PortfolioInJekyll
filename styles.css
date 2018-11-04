@@ -61,8 +61,8 @@ nav{
 	margin: 0;
 	padding: 0;
 	line-height: 3em;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 2px solid #930000;
+	border-bottom: 2px solid #930000;
 	background-color: #0e0187;
 	position: -webkit-sticky;
 	position: sticky;
@@ -134,7 +134,7 @@ aside img {
 }
 
 #post {
-	border: 2px solid black;
+	border: 2px solid #930000;
 	background-color: #701fa5;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -178,6 +178,7 @@ aside {
 }
 
 footer{
+	border-top: 2px solid #930000
 	position: static;
 	text-align: center;
 	width: 100%;
