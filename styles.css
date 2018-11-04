@@ -145,6 +145,10 @@ aside img {
 	box-shadow: 4px 4px #464747;
 }
 
+#search {
+	width: 100px;
+}
+
 body{
 	position: relative;
 	font-family: arial;
