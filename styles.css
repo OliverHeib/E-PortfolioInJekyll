@@ -146,7 +146,8 @@ aside img {
 }
 
 #search {
-	width: 100px;
+	width: 200px;
+	float: right;
 }
 
 body{
