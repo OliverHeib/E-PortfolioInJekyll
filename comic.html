@@ -12,7 +12,7 @@ title: Comic
       {% if post.categories contains "comic" %}
         <li style="list-style-type: none;">
           <div id="post">
-            <h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>{{ post.date | date_to_string }} - {{ post.author }}
             <p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a</p>
             <br>
           </div> <!-- End of container div -->
