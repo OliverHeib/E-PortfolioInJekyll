@@ -1,13 +1,9 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
-  </head>
-  <body>
-    <header>
-			<h1>{{ site.title }}</h1> 
+    	<meta charset="utf-8">
+    	<title>{{ page.title }}</title>
+    	<link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 	<script>
   		(function() {
     			var cx = '005848571934092280375:4azmdas4-1c';
@@ -19,7 +15,10 @@
     			s.parentNode.insertBefore(gcse, s);
   		})();
 	</script>
-	<gcse:search style:"float right; width: 100px;"></gcse:search>
+  </head>
+  <body>
+    <header>
+			<h1>{{ site.title }}</h1> <gcse:search style:"float right; width: 100px;"></gcse:search>
     </header>
     {% include navigation.html %}
     <section>
