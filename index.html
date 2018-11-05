@@ -37,6 +37,16 @@ title: Home
 							</li>
 						{% endfor %}
 					</ul>
+					<ul>
+						{% for post in site.posts offset: 2 limit: 1 %}
+							<li style="list-style-type: none;">
+								<div id="post" style="width: 410px; float: left; margin: 5px;">
+									<h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>{{ post.date | date_to_string }} - {{ post.author }}<p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a></p>
+									<br>
+								</div> <!-- End of container div -->
+							</li>
+						{% endfor %}
+					</ul>
 				</article>
 <div id="disqus_thread"></div>
 <script>
