@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/about</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/blog</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/comic</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/fheohs</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/fheohs/2018/11/05/Kuhy.html</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/comic/2018/11/03/Ogfi.html</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/comic/2018/10/22/Coda's-Brother.html</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/2018/10/12/Test-Post.html</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://oliverheib.github.io/E-PortfolioInJekyll/comic/2018/10/12/Comic.html</loc>
+  <lastmod>2018-11-05T15:12:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
