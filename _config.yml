@@ -3,3 +3,5 @@ title: Oliver Heib's Website
 baseurl: /E-PortfolioInJekyll
 
 comments: true
+
+relative_permalinks: false
