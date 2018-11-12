@@ -5,3 +5,10 @@ baseurl: /E-PortfolioInJekyll
 comments: true
 
 relative_permalinks: false
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
