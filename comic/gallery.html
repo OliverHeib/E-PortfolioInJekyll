@@ -7,6 +7,6 @@ permalink: /comic/7by7/gallery
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/comic' %}
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" style="width: 10%; height: 10%;"/>
     {% endif %}
 {% endfor %}
