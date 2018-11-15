@@ -222,6 +222,10 @@ aside td {
 	border:3px solid black;
 }
 
+.gsc-control-cse {
+	color: black !important;
+}
+
 /*Media quarys*/
 @media (max-width: 1000px) {
 	
