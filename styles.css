@@ -158,6 +158,23 @@ aside img {
 	float: right;
 }
 
+#button {
+    background-color: #f48942;
+    width: auto;
+    padding: 5px;
+    margin:10px;
+    color: white;
+    text-align: center;
+}
+
+#button img{
+    display: block;
+}
+
+#button a{
+    color: white;
+}
+
 body{
 	position: relative;
 	font-family: arial;
@@ -183,11 +200,11 @@ article {
 }
 
 aside {
-	text-align: center;
 	position: relative;
 	float:left;
-	padding-left: 20px;
 	border-left: 2px solid black;
+    position: -webkit-sticky;
+    position: sticky;
 	height: auto;
 	margin: 0px;
 }
