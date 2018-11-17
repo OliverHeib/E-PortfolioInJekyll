@@ -12,6 +12,7 @@ header{
 	padding-left: 20px;
 	color: #ffb85b;
 	text-align: center;
+    height: 100px;
 }
 
 /*text styling*/
@@ -22,7 +23,6 @@ h1{
 
 h2{
 	margin:-5;
-	//padding:0;
 	font-size:20px;
 }
 
@@ -67,30 +67,36 @@ nav{
 	background-color: #0e0187;
 	position: -webkit-sticky;
 	position: sticky;
+    box-sizing: border-box;
+    position:relative;
 }
 nav ul{
 	list-style-type: none;
-	display: inline
+	display: inline;
+    box-sizing: border-box;
 }
 
 nav li{
+    height: 100px;
+    width: 100px;
 	display: inline;
-	margin-left: 10px;
 	padding:16px;
-	background-color: #0337c6;
-	border: 1px solid black;
-	border-top: 2px solid #930000;
-	border-bottom: 2px solid #930000;
+    border: 1px solid transparent;
 	text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+
 }
 
 nav li:hover {
 	background-color: #2a62fc;
 	border: 1px solid #e5cf7e;
+    box-sizing: border-box;
 }
 
 nav a {
-	color: white;
+	color: #e5cf7e;
 	text-decoration: none;
 }
 
@@ -155,7 +161,6 @@ aside img {
 body{
 	position: relative;
 	font-family: arial;
-	//height: 91.5%;
 	color: white; 
 	font-size: 16px;
 	margin: 0;
@@ -193,7 +198,6 @@ footer{
 	text-align: center;
 	width: 100%;
 	margin-top: 0px;
-	//margin-top: 10px; 
 	float: left;
 	background-color: #0e0187;
 	width: 100%;
@@ -228,40 +232,8 @@ aside td {
 	color: black !important;
 }
 
-/*Media quarys*/
-@media (max-width: 1000px) {
-	
-	nav li {
-		width: 150px;
-		margin-top: 5px;
-		margin-bottom; 5px;
-		display: inline-block; 
-	}
-	
-}	
-
-@media (max-width: 640px) {
-	/*makes images below text not inline*/
-	img {
-		float: none;
-	}
-}
-
-@media (max-width: 550px) {
-	/*makes navigation menu have several rows*/
-	nav li{
-		width: 150px;
-		margin-top: 5px;
-		margin-bottom; 5px;
-		display: inline-block; 
-	}
-}
-
-@media (max-width: 404px) {
+@media (max-width: 443px) {
 	/*makes the navigation menu verticl*/
-	nav{
-		background-color: #0337c6; 
-	}
 	
 	nav li{
 		margin-top: 0px;
