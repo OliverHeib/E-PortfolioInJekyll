@@ -5,8 +5,14 @@ permalink: /comic/7by7/gallery
 ---
 <h1>7 by 7 Gallery</h1>
 
+<div class="container">
+<div class="grid">
 {% for image in site.static_files %}
     {% if image.path contains 'images/comic' %}
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="responsive-image"/>
+        <div class="cell">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="responsive-image"/>
+        </div>
     {% endif %}
 {% endfor %}
+</div>
+</div>
