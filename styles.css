@@ -270,3 +270,40 @@ aside td {
 		display: block; 
 	}
 }
+
+
+/*Gallery*/
+.containera {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+  margin: 0;
+  border-radius: 5%;
+}
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 4);
+  }
+}
