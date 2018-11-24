@@ -153,6 +153,21 @@ aside img {
 	float: none;
 }
 
+#comicBanner{
+    height: 500px;
+    width: 100%;
+    color: black;
+	text-align: center;
+    /* The image used */
+    background-image: url('images/comic/OgfiMap.png');
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #post img{
 	border-radius: 5%;
 	border: 2px solid black;
