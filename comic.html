@@ -30,21 +30,23 @@ title: Comic
 
 <br>
 <article>
-<h1>Latest Posts About My Comic</h1>
+    <p>
+        <h1>Latest Posts About My Comic</h1>
 
-  <ul>
-    {% for post in site.posts %}
-      {% if post.categories contains "comic" %}
-        <li style="list-style-type: none;">
-          <div id="post">
-            <h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>{{ post.date | date_to_string }} - {{ post.author }}
-            <p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a</p>
-            <br>
-          </div> <!-- End of container div -->
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+        <ul>
+            {% for post in site.posts %}
+              {% if post.categories contains "comic" %}
+                <li style="list-style-type: none;">
+                  <div id="post">
+                    <h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>{{ post.date | date_to_string }} - {{ post.author }}
+                    <p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a</p>
+                    <br>
+                  </div> <!-- End of container div -->
+                </li>
+              {% endif %}
+            {% endfor %}
+        </ul>
+    <p>
 </article>
 
 <div id="disqus_thread"></div>
