@@ -22,7 +22,7 @@ header{
 	padding-left: 20px;
 	color: white;
 	text-align: center;
-    height: 150px;
+    height: 200px;
     background-color: black;
     top: 0;
     /* The image used */
@@ -184,7 +184,7 @@ aside img {
 	background-color: #701fa5;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: 5px;
+	padding: 10px;
 	box-shadow: 4px 4px #464747;
 }
 
@@ -222,7 +222,6 @@ body{
 
 section{
 	position: relative;
-	padding: 35px;
 	font-size: 16px;
 	width: 100%;
 	float: left;
@@ -233,6 +232,9 @@ section{
 
 article {
 	width: 100%;
+	padding: 35px;
+	width: 97%;
+
 }
 
 aside {

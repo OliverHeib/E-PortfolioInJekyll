@@ -4,66 +4,70 @@ title: Fheohs
 ---
 
 <article>
-  <h1>Fheohs</h1>
-  <p>Fheohs is a project that started out as a mod for Fallout 4. Originally it was set in Arizona. It included Phoenix as the major city as well as Two Sons and all the way to Nogales on the border. The map also went up to Flagstaff, the capital of Caesar's Legion. I ended up designing a lot of the map and characters but trying to put a set of characters (the same ones from my comic) I found the world didn't fit the same story and would have to be set so far after Fallout 4, so that there were non of the same factions, it didn’t feel worth putting it in the same world. I then tried to make Fheohs (after designing a few things about the world) in a Skyrim mod but changed to making it in unity because of engine limitations. (converting to their model file format is a bit of a hassle.)</p>
-  <p>Fheohs is set in a Fantasy universe with the same basic history as my comic. Gods exist and each month is named after one. The Regini (who currently own Qwed, Uert, Rater) are trying to expand and own the whole world. The rest of the countries in the north west of the word have formed an alliance to fight back against the Regini. The main goal of this project is to create a Morowind-esk experiance focusing more on the characters and the players interaction with them rather than amazing graphics. Letting the player create their own story rather than the game presenting them with one</p>
-  <img src="images/Fheohs/RPLocationsFheohs.png" alt="Picture of me" style="width:450px;height:280px;">
+  	<h1>Fheohs</h1>
+  	<p>Fheohs is a project that started out as a mod for Fallout 4. Originally it was set in Arizona. It included Phoenix as the major city as well as Two Sons and all the way to Nogales on the border. The map also went up to Flagstaff, the capital of Caesar's Legion. I ended up designing a lot of the map and characters but trying to put a set of characters (the same ones from my comic) I found the world didn't fit the same story and would have to be set so far after Fallout 4, so that there were non of the same factions, it didn’t feel worth putting it in the same world. I then tried to make Fheohs (after designing a few things about the world) in a Skyrim mod but changed to making it in unity because of engine limitations. (converting to their model file format is a bit of a hassle.)</p>
+  	<p>Fheohs is set in a Fantasy universe with the same basic history as my comic. Gods exist and each month is named after one. The Regini (who currently own Qwed, Uert, Rater) are trying to expand and own the whole world. The rest of the countries in the north west of the word have formed an alliance to fight back against the Regini. The main goal of this project is to create a Morowind-esk experiance focusing more on the characters and the players interaction with them rather than amazing graphics. Letting the player create their own story rather than the game presenting them with one</p>
+  <	img src="images/Fheohs/RPLocationsFheohs.png" alt="Fheohs Map" style="width:450px;height:280px;">
 </article>
 
 <article>
-  The list of races and where they come from:
-  <ul>
-    <li>Regini in Qwed, Uert, Rater (human like)</li>
-    <li>Hjasn in Kuhy Dioa, Fios, Eirfre (human like)</li> 
-    <li>Huad, yedraf, wisfar, Erkan Calarl (cat like)</li>
-    <li>Dyfed, Grft, Leofi Jesdu (lizard like)</li>
-    <li>Wisfar, Yesraf, Huad, Fois, Kuhy Asond (scorpion Like creature)</li>
-    <li>Fopes, Gers Elf (elf)</li>
-    <li>Lcuyge, Ehso Elf (elf)</li>
-    <li>Heufh Elf (elf)</li>
-    <li>Resda Elf (elf)</li>
-    <li>Tesda Dwarf</li>
-    <li>Ioja unknown as nobody is aloud there</li> 
-  </ul>
-  
-  The current project is Fheohs: Kuhy
+  	The list of races and where they come from:
+  	<ul>
+   		<li>Regini in Qwed, Uert, Rater (human like)</li>
+   		<li>Hjasn in Kuhy Dioa, Fios, Eirfre (human like)</li> 
+   		<li>Huad, yedraf, wisfar, Erkan Calarl (cat like)</li>
+    		<li>Dyfed, Grft, Leofi Jesdu (lizard like)</li>
+    		<li>Wisfar, Yesraf, Huad, Fois, Kuhy Asond (scorpion Like creature)</li>
+    		<li>Fopes, Gers Elf (elf)</li>
+    		<li>Lcuyge,: Ehso Elf (elf)</li>  
+    		<li>Heufh Elf (elf)</li>
+    		<li>Resda Elf (elf)</li>
+    		<li>Tesda Dwarf</li>
+    		<li>Ioja unknown as nobody is aloud there</li> 
+  	</ul>
+  	<br>
+  	The current project is Fheohs: Kuhy
 </article>
 
-<br>
+<br><br>
 
-<h1>Latest Posts About Fheohs</h1>
+<article>
+	<h1>Latest Posts About Fheohs</h1>
 
-<ul>
-    {% for post in site.posts %}
-      {% if post.categories contains "fheohs" %}
-        <li style="list-style-type: none;">
-          <div id="post">
-            <h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a</p>
-            <br>
-          </div> <!-- End of container div -->
-        </li>
-      {% endif %}
-    {% endfor %}
-</ul>
+	<ul>	
+    		{% for post in site.posts %}
+      		{% if post.categories contains "fheohs" %}
+        	<li style="list-style-type: none;">
+          		<div id="post">
+            			<h2><a href="/E-PortfolioInJekyll/{{ post.url }}">{{ post.title }}</a></h2>
+           			<p>{{ post.excerpt }} <a href="/E-PortfolioInJekyll/{{ post.url }}">Read More...</a</p>
+            			<br>
+          		</div> <!-- End of container div -->
+        	</li>
+      		{% endif %}
+    		{% endfor %}
+	</ul>
+</article>
 
-<div id="disqus_thread"></div>
-<script>
+<article>
+	<div id="disqus_thread"></div>
+	<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://https-oliverheib-github-io-e-portfolioinjekyll.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		/*
+		var disqus_config = function () {
+		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		*/
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://https-oliverheib-github-io-e-portfolioinjekyll.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
