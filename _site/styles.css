@@ -1,0 +1,366 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+html { /*full page background styles*/
+	background-color: black;
+	margin: 0;
+   	padding: 0;
+	height: 100%;
+	width: 100%
+}
+/*title styles*/
+header{
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	color: white;
+	text-align: center;
+    	height: 200px;
+    	background-color: black;
+    	top: 0;
+    	/* The image used */
+    	background-image: url('siteBanner.png');
+
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+/*text styling*/
+h1{
+	margin:15;
+	font-size:26px;
+}
+
+h2{
+	margin:-5;
+	font-size:20px;
+}
+
+body h1{
+	margin-left:-15px;
+	padding-left:0;
+	padding-left:10px;
+	font-size:26px;
+}
+
+body p{
+	font-size:16px;
+	font-weight: normal;
+	padding:5px;
+}
+
+/*links*/
+a {
+	color: #7fffc3;
+	text-decoration: none;
+}
+
+a:visited {
+    	color: #e5cf7e;
+}
+
+a:hover {
+    
+}
+
+a:active {
+	color: purple;
+}
+
+/*navigation menu styles*/
+nav{
+	margin: 0;
+	padding: 0;
+	line-height: 3em;
+	border-top: 2px solid #930000;
+	border-bottom: 2px solid #930000;
+	background-color: #0e0187;
+	position: -webkit-sticky;
+	position: sticky;
+    	box-sizing: border-box;
+    	position:relative;
+}
+nav ul{
+	list-style-type: none;
+	display: inline;
+    	box-sizing: border-box;
+}
+
+nav li{
+    	height: 100px;
+    	width: 100px;
+	display: inline;
+	padding:16px;
+    	border: 1px solid transparent;
+	text-align: center;
+    	box-sizing: border-box;
+    	-webkit-box-sizing:border-box;
+    	-moz-box-sizing:border-box;
+
+}
+
+nav li:hover {
+	background-color: #2a62fc;
+	border: 1px solid #e5cf7e;
+    	box-sizing: border-box;
+}
+
+nav a {
+	color: #e5cf7e;
+	text-decoration: none;
+}
+
+nav a:visited {
+    	color: #e5cf7e;
+}
+
+nav a:hover {
+    
+}
+
+nav a:active {
+	color: purple;
+}
+
+/*image styles(at the side and in line with text respectivly*/
+img {
+    	border-radius: 20%;
+	margin: 20px;
+	float: right;
+}
+
+p img {
+	border-radius: 15%;
+	margin: 0px;
+	float: none;
+}
+
+aside img {
+	border-radius:0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	float: none;
+}
+
+#comicBanner{
+    	height: 500px;
+    	width: 100%;
+    	color: black;
+	text-align: center;
+    	/* The image used */
+    	background-image: url('images/comic/OgfiMap.png');
+		
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+#homeBanner{
+	height: 500px;
+	width: 100%;
+   	color: black;
+	text-align: center;
+    	/* The image used */
+    	background-image: url('images/homePageBanner.jpg');
+
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#fheohsBanner{
+	height: 500px;
+	width: 100%;
+   	color: black;
+	text-align: center;
+    	/* The image used */
+    	background-image: url('images/Fheohs/KuhyMapv0.2.png');
+
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#post img{
+	border-radius: 5%;
+	border: 2px solid black;
+}
+
+/*Page structure*/
+#container {
+	width:100%;
+	height: 100%;
+}
+
+#post {
+	border: 2px solid #930000;
+	background-color: #701fa5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-shadow: 4px 4px #464747;
+}
+
+#search {
+	width: 250px;
+	float: right;
+}
+
+#button {
+    	background-color: #f48942;
+    	width: auto;
+    	padding: 5px;
+    	margin:10px;
+    	color: white;
+    	text-align: center;
+}
+
+#button img{
+    	display: block;
+}
+
+#button a{
+    	color: white;
+}
+
+body{
+	position: relative;
+	font-family: arial;
+	color: white; 
+	font-size: 16px;
+	margin: 0;
+	width: 100%;
+	background-color: black;
+}
+
+section{
+	position: relative;
+	font-size: 16px;
+	width: 100%;
+	float: left;
+	margin: 0px;
+	background-color: #000149;
+	box-sizing: border-box;
+}
+
+article {
+	width: 100%;
+	padding: 35px;
+	width: 97%;
+
+}
+
+aside {
+	position: relative;
+	float:left;
+	border-left: 2px solid black;
+    	position: -webkit-sticky;
+    	position: sticky;
+	height: auto;
+	margin: 0px;
+}
+
+footer{
+	border-top: 2px solid #930000;
+	position: static;
+	text-align: center;
+	width: 100%;
+	margin-top: 0px;
+	float: left;
+	background-color: #0e0187;
+	width: 100%;
+	padding: 10px;
+	height: auto%;
+	box-sizing: border-box;
+	left: 0;
+	bottom: 0;
+}	
+
+/*lists and tables styles*/
+ul{
+	margin:0;
+	padding:0;
+}
+
+table {
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+td {
+	text-align: center;
+	float: clear;
+}
+
+aside td {
+	border:3px solid black;
+}
+
+#___gcse_0 input[type="text"] {
+	color: black !important;
+}
+
+@media (max-width: 443px) {
+	/*makes the navigation menu verticl*/
+	
+	nav li{
+		margin-top: 0px;
+		margin-bottom; 0px;
+		border: none;
+		display: block; 
+	}
+}
+
+
+/*Gallery*/
+.containera {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+  margin: 0;
+  border-radius: 5%;
+}
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 4);
+  }
+}

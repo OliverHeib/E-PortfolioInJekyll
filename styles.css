@@ -22,17 +22,17 @@ header{
 	padding-left: 20px;
 	color: white;
 	text-align: center;
-    height: 200px;
-    background-color: black;
-    top: 0;
-    /* The image used */
-    background-image: url('siteBanner.png');
+    	height: 200px;
+    	background-color: black;
+    	top: 0;
+    	/* The image used */
+    	background-image: url('siteBanner.png');
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 }
 
 /*text styling*/
@@ -66,7 +66,7 @@ a {
 }
 
 a:visited {
-    color: #e5cf7e;
+    	color: #e5cf7e;
 }
 
 a:hover {
@@ -87,32 +87,32 @@ nav{
 	background-color: #0e0187;
 	position: -webkit-sticky;
 	position: sticky;
-    box-sizing: border-box;
-    position:relative;
+    	box-sizing: border-box;
+    	position:relative;
 }
 nav ul{
 	list-style-type: none;
 	display: inline;
-    box-sizing: border-box;
+    	box-sizing: border-box;
 }
 
 nav li{
-    height: 100px;
-    width: 100px;
+    	height: 100px;
+    	width: 100px;
 	display: inline;
 	padding:16px;
-    border: 1px solid transparent;
+    	border: 1px solid transparent;
 	text-align: center;
-    box-sizing: border-box;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
+    	box-sizing: border-box;
+    	-webkit-box-sizing:border-box;
+    	-moz-box-sizing:border-box;
 
 }
 
 nav li:hover {
 	background-color: #2a62fc;
 	border: 1px solid #e5cf7e;
-    box-sizing: border-box;
+    	box-sizing: border-box;
 }
 
 nav a {
@@ -121,7 +121,7 @@ nav a {
 }
 
 nav a:visited {
-    color: #e5cf7e;
+    	color: #e5cf7e;
 }
 
 nav a:hover {
@@ -134,7 +134,7 @@ nav a:active {
 
 /*image styles(at the side and in line with text respectivly*/
 img {
-    border-radius: 20%;
+    	border-radius: 20%;
 	margin: 20px;
 	float: right;
 }
@@ -154,18 +154,48 @@ aside img {
 }
 
 #comicBanner{
-    height: 500px;
-    width: 100%;
-    color: black;
+    	height: 500px;
+    	width: 100%;
+    	color: black;
 	text-align: center;
-    /* The image used */
-    background-image: url('images/comic/OgfiMap.png');
+    	/* The image used */
+    	background-image: url('images/comic/OgfiMap.png');
+		
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#homeBanner{
+	height: 500px;
+	width: 100%;
+   	color: black;
+	text-align: center;
+    	/* The image used */
+    	background-image: url('images/homePageBanner.jpg');
+
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#fheohsBanner{
+	height: 500px;
+	width: 100%;
+   	color: black;
+	text-align: center;
+    	/* The image used */
+    	background-image: url('images/Fheohs/KuhyMapv0.2.png');
+
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #post img{
@@ -194,20 +224,20 @@ aside img {
 }
 
 #button {
-    background-color: #f48942;
-    width: auto;
-    padding: 5px;
-    margin:10px;
-    color: white;
-    text-align: center;
+    	background-color: #f48942;
+    	width: auto;
+    	padding: 5px;
+    	margin:10px;
+    	color: white;
+    	text-align: center;
 }
 
 #button img{
-    display: block;
+    	display: block;
 }
 
 #button a{
-    color: white;
+    	color: white;
 }
 
 body{
@@ -241,8 +271,8 @@ aside {
 	position: relative;
 	float:left;
 	border-left: 2px solid black;
-    position: -webkit-sticky;
-    position: sticky;
+    	position: -webkit-sticky;
+    	position: sticky;
 	height: auto;
 	margin: 0px;
 }
@@ -270,8 +300,8 @@ ul{
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 
 td {
