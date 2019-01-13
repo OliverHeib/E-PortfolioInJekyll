@@ -154,7 +154,7 @@ aside img {
 }
 
 #comicBanner{
-    	height: 500px;
+    	height: 600px;
     	width: 100%;
     	color: black;
 	text-align: center;
@@ -169,7 +169,7 @@ aside img {
 }
 
 #homeBanner{
-	height: 500px;
+	height: 600px;
 	width: 100%;
    	color: black;
 	text-align: center;
@@ -184,12 +184,12 @@ aside img {
 }
 
 #fheohsBanner{
-	height: 500px;
+	height: 600px;
 	width: 100%;
    	color: black;
 	text-align: center;
     	/* The image used */
-    	background-image: url('images/Fheohs/KuhyMapv0.2.png');
+    	background-image: url('images/Fheohs/kuhyMapV0.2.png');
 
     	/* Create the parallax scrolling effect */
     	background-attachment: fixed;
