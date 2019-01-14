@@ -198,6 +198,21 @@ aside img {
 	background-size: cover;
 }
 
+#fheohsBanner2{
+	height: 600px;
+	width: 100%;
+   	color: black;
+	text-align: center;
+    	/* The image used */
+    	background-image: url('images/Fheohs/RPLocationsFheohs.png');
+
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #post img{
 	border-radius: 5%;
 	border: 2px solid black;
